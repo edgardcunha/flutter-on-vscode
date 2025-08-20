@@ -1,2 +1,2 @@
-# flutter-on-vscode
+# flutter-on-codespaces
 Repositório base da disciplina Computação Móvel do curso Sistemas de Informação.
