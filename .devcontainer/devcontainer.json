@@ -1,0 +1,27 @@
+{
+  "name": "Flutter Codespace",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/flutter:1": {
+      "version": "latest"
+    }
+  },
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.flutter",
+        "Dart-Code.dart-code",
+        "eamodio.gitlens",
+        "ms-vscode.live-server",
+        "GitHub.copilot"
+      ]
+    }
+  },
+  
+  "remoteUser": "vscode",
+  "postCreateCommand": "flutter doctor"
+}
