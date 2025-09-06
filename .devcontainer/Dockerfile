@@ -1,7 +1,7 @@
 FROM dart
 
 RUN apt-get update
-RUN apt-get install -y curl git unzip xz-utils zip libglu1-mesa nano wget
+RUN apt-get install -y curl git unzip xz-utils zip libglu1-mesa nano wget clang cmake ninja-build pkg-config
 
 RUN apt-get clean
 
